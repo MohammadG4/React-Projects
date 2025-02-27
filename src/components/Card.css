@@ -1,0 +1,50 @@
+.mainCard{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 9vh;
+  padding-left: 4%;
+  padding-right: 3.5%;
+  justify-content: space-between;
+  align-items: center;
+  color: #dfe0df;
+  background-color: #2e2e3f;
+  border-radius: 12px;
+  margin:1% 0;
+
+}
+.mainCard .date{
+  background-color: #2972ee;
+  max-width: fit-content;
+  min-width: 8%;
+  /* width: 8%; */
+  height: 75%;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0.7%;
+  border: 0.1px solid white;
+  text-align: center;
+  align-self: center;
+  border-radius: 9px;
+  word-spacing: 10000px;
+  line-height: 130%;
+}
+
+.mainCard .name{
+  width: 55%;
+  text-align: left;
+  font-size: 18.5px;
+  font-weight: 700;
+  color: #9fa0a9;
+}
+.mainCard .remains{
+  width: 12%;
+  height: 53%;
+  padding: auto;
+  background-color: #2972ee;
+  text-align: center;
+  border-radius: 10px;
+  align-content: center;
+  font-weight: 700;
+  border: 0.5px solid white;
+}
